@@ -1,0 +1,17 @@
+Las bases de datos deberían ser lo más cercanas posibles a la máquina. Por eso usamso consola
+Existen muchas formas de conectarse mediante drivers, OBRM object reletionships manager.
+
+Lo importante es entender que está haciendo la interfaz por detrás. La terminal es tu amiga.
+Las interfaces gráficas suponen un ligero retraso en a manipulación de los datos.
+
+Para acceder a mi base de datos uso mysql -u root -h localhost -p Me permite acceder a mysql mediante el usuario root a un host que es local, y que me permite ingresar el password de acceso. 
+Por buenas prácticas no es ideal adjuntar el password despues de -p debido a que si quiero usar una conexión con un servidor externo estaría enviando la contraseña abierta.
+
+Para saber que bases de datos están en mi server: show databases:
+
+// El informatio schema es una bd principal. Tenemos toda la meta información de las tablas, columnas.
+// Para acceder a una base de datos puntual usamos ----> use + nombreBD:
+// Para listar las tablas que tengo en la base de datos uso ----> show tables:
+// Para saber en que base de datos estoy:.—> select database(): Es una función.
+
+Consola ejecuta los comando escritos. Es conocer bien la mayor cantidad de comandos que podemos escribir.
