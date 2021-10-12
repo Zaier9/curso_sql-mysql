@@ -1,0 +1,3 @@
+Una base de datos, es un lugar donde almacenamos datos puntuales de cualquier tipo para poder operar sobre ellos y convertirlos en información, operaciones de negocio y conocimiento. El como operamos sobre los datos lo logra.
+
+La forma de MySQL es una forma es un modelo relacional entre tablas dependientes entre sí. Las conexiones entre tablas nos brindan mucha información, podemos crear mucha más información que los datos por sí solos. Es decir, podemos realizar consultas, podemos preguntarle a la data.
