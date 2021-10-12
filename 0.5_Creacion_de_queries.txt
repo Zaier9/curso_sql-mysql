@@ -1,0 +1,33 @@
+* Creacion de base de datos
+CREATE DATABASE platzi_operation;
+
+* Creacion de base de datos usando un condicional
+CREATE DATABASE IF NOT EXISTS platzi_operation;
+
+*  Mostar Warnings
+SHOW warnings;
+
+*  Mostar bases de datos
+SHOW DATABASES
+
+*  Utilizar una base de datos
+USE platzi_operation;
+
+* Mostrar tablas
+SHOW TABLES;
+
+* Como saber que base de datos estoy usando, RTA:
+SELECT DATABASE();
+
+* Borrar tabla
+DROP TABLE books
+
+* Mostar tablas
+SHOW TABLES;
+
+* Describe los campos de la base de datos
+DESCRIBE books
+DESC authors
+
+* Mostar todo el esquema de la tabla (Incluyendo los comentarios)
+SHOW FULL COLUMNS FROM books;
